@@ -1,0 +1,177 @@
+.frame {
+    align-items: flex-start;
+    background-color: var(--brand-light);
+    display: flex;
+    gap: 128px;
+    padding: 88px 108px;
+    position: relative;
+  }
+  @media (max-width: 768px) {
+    .frame {
+      padding: 20px;
+    }
+  
+    .text-wrapper, .text-wrapper-2, .text-wrapper-3, .text-wrapper-4 {
+      font-size: 14px;
+    }
+  
+    .div-3 {
+      display: flex;
+      gap: 10px;
+    }
+  }
+  
+  .frame .div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    width: 360px;
+  }
+  
+  .frame .text-wrapper {
+    color: #ffffff;
+    font-family: var(--headline-font-family);
+    font-size: var(--headline-font-size);
+    font-style: var(--headline-font-style);
+    font-weight: var(--headline-font-weight);
+    letter-spacing: var(--headline-letter-spacing);
+    line-height: var(--headline-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .div-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 36px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .p {
+    align-self: stretch;
+    color: var(--text-inverted-body);
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+    font-style: var(--body-font-style);
+    font-weight: var(--body-font-weight);
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .frame .div-3 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .frame .icon-set {
+    height: 24px !important;
+    position: relative !important;
+    width: 24px !important;
+  }
+  
+  .frame .div-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    width: 240px;
+  }
+  
+  .frame .div-5 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .text-wrapper-2 {
+    align-self: stretch;
+    color: var(--text-inverted-title);
+    font-family: var(--title-font-family);
+    font-size: var(--title-font-size);
+    font-style: var(--title-font-style);
+    font-weight: var(--title-font-weight);
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper-3 {
+    align-self: stretch;
+    color: var(--text-inverted-title);
+    font-family: var(--title-font-family);
+    font-size: var(--title-font-size);
+    font-style: var(--title-font-style);
+    font-weight: var(--title-font-weight);
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    position: relative;
+  }
+  
+  .frame .div-6 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .text-wrapper-4 {
+    color: var(--text-inverted-body);
+    flex: 1;
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+    font-style: var(--body-font-style);
+    font-weight: var(--body-font-weight);
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .frame .div-7 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .frame .map {
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    width: 280px;
+  }
+  
+  .frame .basemap-image {
+    height: 800px;
+    left: -230px;
+    position: absolute;
+    top: -250px;
+    width: 800px;
+  }
+
+  
